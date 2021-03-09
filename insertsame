@@ -1,0 +1,10 @@
+Sub 巨集2()
+'
+' 巨集2 巨集
+'
+
+    Dim a
+    a = Sheets("s").Cells(2, 4).Value
+    Sheets("s").Cells(2, 5).Value = a
+
+End Sub
